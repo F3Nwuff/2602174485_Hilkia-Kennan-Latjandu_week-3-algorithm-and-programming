@@ -1,0 +1,9 @@
+px = float(input("enter the point px:"))
+py = float(input("enter the point py:"))
+qx = float(input("enter the point qx:"))
+qy = float(input("enter the point qy:"))
+x = qx - px
+y = qy - py
+rx = float(qx+x)
+ry = float(qy+y)
+print("the point of r =" , "(" , rx , "," , ry , ")" )
