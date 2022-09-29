@@ -1,6 +1,0 @@
-x = float(input("enter number of seconds :"))
-y = int(x//60)
-z = int(x%60)
-v = int(y//60)
-u = int(y%60)
-print(f"result: {v}:{u}:{z}")

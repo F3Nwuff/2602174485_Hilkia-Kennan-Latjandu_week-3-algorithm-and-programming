@@ -1,5 +1,0 @@
-zx = float(input("enter burger selling price: $"))
-zy = float(input("enter soda selling price : $"))
-zz = float(input("enter combo meal selling price : $"))
-r = float((zx + zy)-zz)
-print(f"the fixed profit is : ${r:.2f}")
